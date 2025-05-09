@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our First HTML Program</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body style = "background-color: aqua;">
+     <h1>Debrebrhan main university Student</h1>
+     <h2>Software Engineering Department</h2>
+     <h3>Third Year First Semister</h3>
+     
+     <p>
+        Reads raw bytes from files (e.g., images, binary files).
+         encapsulates (wraps) another class to add extra functionality without modifying the original class.
+        (not BufferedReader): Adds buffering for efficiency.
+        DataInputStream:-Reads primitive data types (e.g. int,double).
+        PushbackInputStream: -Allows "unreading" bytes.
+        LineNumberInputStream(Deprecated): Replaced by LineNumberReader.
+        PipedInputStream:-Reads data from a connected Piped OutputStream(inter-thread communication).
+        SequenceInputStream:-Concatenates multiple input streams into one.
+        ByteArrayInputStream:- Reads data from a byte array in memory.
+        (Deprecated) Replaced by String Reader.
+        ObjectInputStream:-Read objects deserializes objects from a stream (used with serialization).<br><strike>They are used to define a common interface or shared behavior for subclasses while allowing subclasses to provide specific implementations.
+        </strike>
+        </p>
+        
+        <p>copyright &nbsp;&copy;</p>
+        <P>yen &nbsp;&dollar;</P>
+        <table border="1">
+            <tr>
+                <th colspan="3">Information</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>Betelhem</td>
+                <td>21</td>
+                <td>Web Designing</td>
+            </tr>
+            <tr>
+                <td>Ldet</td>
+                <td>23</td>
+                <td>Computer science</td>
+            </tr>
+        </table><br>
+        <label for="fname">fullnames</label>
+        <input type = "text" name = "fname" placeholder="Enter your name" required autofocus autocomplete="off"><br>
+        <label for="fname">username</label>
+        <input type="text" name="fname" placeholder="Enter username" required autofocus autocomplete="off"><br>
+        <button type="submit">submit</button><br>
+        <form action="" method="post">
+            <label for="user-role">Country</label>
+            <select id="user-role" name="role" value="uganda">
+                <option value="admin">Ethiopia</option>
+                <option value="admin">Kenya</option>
+                <option value="admin">Sudan</option>
+                <option value="admin">uganda</option>
+            </select>
+        </form>
+        <form action="#" method="post">
+            <label for="text">Text</label>
+            <input type="text" id="text" name="text" placeholder="Enter text"><br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password"><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gamil.com"><br>
+            <label for="number">number</label>
+            <input type="number" id="number"
+            name="number" min="2" max="100" placeholder="number"><br>
+            <label for="date">Date</label>
+            <input type="date" id="data" name="date"><br>
+            <label for="file">Uploadfile</label>
+            <input type="file" id="file" name="file"><br>
+            <label>Choose interest</label>
+            <input type="checkbox" id="html" name="interest" value="HTML"><br>
+            <label aria-flowto="html">HTML</label>
+            <input type="checkbox" id="css" name="interest" value="css">
+            <label for="css">CSS</label><br>
+            <label>Select Gender</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">female</label><br>
+            <label for="role">Select Role</label>
+            <select id="role" name="role">
+                <option value="admin">admin</option>
+                <option value="editor">Editor</option>
+                <option value="viewer">Viewer</option>
+            </select><br><br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="7" placeholder="Enter your message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>
