@@ -1,0 +1,32 @@
+table {
+   width: 60%;
+   border-collapse: collapse;
+   font-family: 'Courier New', Courier, monospace;
+   box-shadow: 0 2px 10px rgba(red, green, blue, alpha);
+} 
+th, td {
+    padding: 15px 20px;
+    border: 1px solid #e3156b;
+    text-align: left;
+    color: burlywood;
+  }
+  
+  th {
+    background-color: #bd3c49;
+    color: rgb(4, 2, 3);
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e29f0e;
+    color: darkgoldenrod;
+  }
+  
+  tr:hover {
+    background-color: #ec1085;
+    cursor: pointer;
+    color: blueviolet;
+  }
+p, h1 {
+    color: aqua;
+    size: 0lvb;
+}
