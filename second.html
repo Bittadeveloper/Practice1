@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styleee.css">
-
+        <title>My First Webpage</title>
     </head>
-    <body style="background-color: yellowgreen;">
-        <table border="3">
-            <th align="m" colspan="3">Student table</th>
+    <body>
+        <div class="heading-box">
+           <h1>WELCOME TO MY WEBSITE</h1>
+           <h2>This is my first web page.</h2>
+        </div>
+        <p><h3>About me:</h3></p>
+        <p><h3>I am learning frotend development and practice HTML with CSS</h3></p>
+        <div class="conact">
+           <p><h3>conact:</h3></p>
+           <p><h3>Email:myemail@example.com</h3></p>
+        </div>
+        <table border="5">
+            <th align="m" colspan="4">Student table</th>
             <tr>
-                <th>No.</th>
-                <th>ID</th>
-                <th>Name</th>
+                <th>No. </th>
+                <th>ID   </th>
+                <th>Name   </th>
+                <th>Email</th>
             </tr>
             <tr>
                 <th>1</th>
                 <th>101</th>
                 <th>Alem</th>
+                <th>alem@gmail.com</th>
             </tr>
             <tr>
                 <th>2</th>
                 <th>102</th>
                 <th>Betty</th>
+                <th>bitt@gmail.com</th>
             </tr>
         </table>
-    <div style="color: blue;">
+      <div style="color:blue">
           <p>
             <h3>ENTER YOUR REGISTRAL INFORMATION</h3>
           </p>
-    </div>
+      </div>
+      <div class="login-box">
+        <h2>LOGIN FORM</h2>
+        <label for="Name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Put you Name"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="put your Email"><br><br>
+        <label for="Password">Password: </label>
+        <input type="password" id="password" name="password" placeholder="put your Password"><br><br>
+        
+      </div>
+      <button type="submit">Submit here</button>
 
     </body>
 </html>
